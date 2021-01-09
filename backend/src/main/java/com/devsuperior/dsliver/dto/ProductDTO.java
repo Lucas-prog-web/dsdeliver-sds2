@@ -9,7 +9,7 @@ public class ProductDTO implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
-	private long id;
+	private Long id;
 	private String name;
 	private double price;
 	private String description;

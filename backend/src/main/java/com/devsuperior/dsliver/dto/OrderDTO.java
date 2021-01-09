@@ -13,7 +13,7 @@ public class OrderDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
-	private long id;
+	private Long id;
 	private String address;
 	private double latitude;
 	private double longitude;
@@ -26,7 +26,7 @@ public class OrderDTO implements Serializable{
 		
 	}
 
-	public OrderDTO(long id, String address, double latitude, double longitude, Instant moment, OrderStatus status) {
+	public OrderDTO(Long id, String address, double latitude, double longitude, Instant moment, OrderStatus status) {
 		this.id = id;
 		this.address = address;
 		this.latitude = latitude;
